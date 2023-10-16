@@ -1,0 +1,61 @@
+@charset "utf-8";
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/sozai.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title {
+    color: #333;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.content {
+    padding: 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.mokuzi {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.mokuzi a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.mokuzi a:hover {
+    color: #007bff;
+}
+
+.content ul {
+    font-size: 22px;
+    line-height: 1.6;
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+table{width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;}
+
+	th, td{border: 1px solid #000;
+		padding: 8px;
+		text-align: center;}
